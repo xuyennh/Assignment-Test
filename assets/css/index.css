@@ -1,0 +1,126 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 12px;
+  font-family: "Noto Sans";
+  line-height: 1.2;
+}
+
+.searches-rank {
+  width: 290px;
+  height: 330px;
+  border: 1px solid #bec8d8;
+  padding: 16px 16px 12px;
+  margin-top: 8px;
+  margin-left: 8px;
+}
+
+.searches-rank__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.searches-rank__title {
+  font-size: 16px;
+  color: #222222;
+}
+
+.searches-rank__title span {
+  color: #3ec729;
+}
+
+.searches-rank__detail {
+  font-size: 11px;
+  color: #838383;
+  text-decoration: none;
+  font-family: "Tahoma";
+}
+
+.searches-rank__options {
+  display: flex;
+  align-items: center;
+
+  border: 1px solid #e3e7ee;
+  margin-top: 19px;
+}
+
+.searches-rank__number {
+  max-width: 50%;
+  flex: 0 0 50%;
+  text-align: center;
+  text-decoration: none;
+  color: #888888;
+  padding-top: 6px;
+  padding-bottom: 7px;
+}
+
+.active {
+  color: #222222;
+}
+
+.searches-rank__number:first-child {
+  border-right: 1px solid #e3e7ee;
+}
+
+.searches-rank__content > ul {
+  border-bottom: 1px solid #f1f3f6;
+  padding-top: 11px;
+  padding-bottom: 15px;
+}
+.searches-rank__content > ul > li {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.searches-rank__content > ul > li:last-child {
+  margin-bottom: 0;
+}
+.searches-rank__content > ul > li > a {
+  text-decoration: none;
+  color: #222222;
+}
+
+.searches-rank__content > ul > li span {
+  color: #828282;
+}
+
+.searches-rank__content > ul > li > span {
+  font-family: "Tahoma";
+  min-width: 20px;
+  text-align: right;
+}
+.searches-rank__content > ul > li > a > span {
+  min-width: 13px;
+  display: inline-block;
+  text-align: center;
+}
+.arrow {
+  width: 9px;
+  height: 10px;
+  margin-right: 5px;
+  margin-left: auto;
+  text-align: center;
+}
+
+.minus {
+  height: 5px;
+}
+.searches-rank__date {
+  display: flex;
+  margin-top: 10px;
+  color: #888888;
+  font-family: "Tahoma";
+}
+
+.searches-rank__time {
+  margin-left: 7px;
+}
